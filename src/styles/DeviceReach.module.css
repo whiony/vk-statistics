@@ -1,0 +1,42 @@
+.deviceReach {
+  flex: 1;
+  padding: 22px 0 30px 24px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 13px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.row {
+  margin-top: 38px;
+  display: flex;
+}
+
+.description {
+  margin-left: 19px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.descRow {
+  margin-bottom: 9px;
+}
+
+.square {
+  margin-right: 9px;
+  width: 16px;
+  height: 16px;
+  background: #e786d7;
+  border-radius: 5px;
+}
+
+.square.purple {
+  background: #7f7fd5;
+}

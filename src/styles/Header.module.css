@@ -1,0 +1,61 @@
+.header {
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin-right: 45px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.search {
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.search .searchIcon {
+  cursor: pointer;
+  margin-right: 10px;
+  width: 9px;
+  height: auto;
+}
+
+.search input {
+  border: none;
+  background: none;
+}
+
+.search input::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #979797;
+}
+
+.notification {
+  cursor: pointer;
+}
+
+.userName {
+  margin-right: 11px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.userAvatar {
+  margin-right: 9px;
+  cursor: pointer;
+}
+
+.dropDownArrow {
+  padding: 5px;
+  cursor: pointer;
+}

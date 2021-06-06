@@ -1,0 +1,52 @@
+.peopleCardContainer {
+  margin-top: 35px;
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.peopleCard {
+  padding: 24px;
+  margin-right: 32px;
+  flex: 1;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 13px;
+}
+
+.peopleCard:last-child {
+  margin-right: 0;
+}
+
+.row {
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+
+.row:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.dots {
+  cursor: pointer;
+}
+
+.people {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.percents {
+  margin-right: 9px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #979797;
+}

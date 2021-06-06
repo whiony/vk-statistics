@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import Content from "./components/Content";
+import Content from "./components/Content/Content";
 
 function App() {
   return (
