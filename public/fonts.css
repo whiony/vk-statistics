@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(fonts/gilroy-regular.ttf);
+  font-size: 400;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(fonts/gilroy-medium.ttf);
+  font-size: 500;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(fonts/gilroy-semiBold.ttf);
+  font-size: 600;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(fonts/gilroy-bold.ttf);
+  font-size: 700;
+}
