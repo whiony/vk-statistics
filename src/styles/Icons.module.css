@@ -1,18 +1,25 @@
 .sidebar {
-  padding: 46px 0 48px;
+  /* padding: 46px 0 48px; */
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   background-color: #fdfdff;
   border-right: 1px solid #ebebeb;
   box-sizing: border-box;
 }
 
+.fixed {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 98px;
+}
+
 .logo {
   width: 42px;
   height: auto;
+  margin-top: 46px;
 }
 
 .sidebarIcon {
@@ -29,8 +36,8 @@
   content: "";
   position: absolute;
   bottom: -3px;
-  left: -31px;
-  width: 4px;
+  left: -32px;
+  width: 4.5px;
   height: 50px;
   background: #7f7fd5;
   border-top-right-radius: 24px;
@@ -38,6 +45,7 @@
 }
 
 .themeButton {
+  margin-bottom: 46px;
   cursor: pointer;
   display: flex;
   align-items: center;

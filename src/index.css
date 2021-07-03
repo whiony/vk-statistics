@@ -27,3 +27,9 @@ code {
   flex-direction: row;
   align-items: center;
 }
+
+.cardTitle {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}

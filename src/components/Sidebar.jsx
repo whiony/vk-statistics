@@ -4,17 +4,19 @@ import { HomeIcon, PostsIcon, CommunityIcon, MessageIcon, MediaIcon, DashboardIc
 
 const Sidebar = () => {
   return <aside className={s.sidebar}>
-    <img src={process.env.PUBLIC_URL + '/img/logo.svg'} alt="logo" className={s.logo} />
-    <div>
-      <NavLink to="#" activeClassName={s.active}><HomeIcon /></NavLink>
-      <NavLink to="#" activeClassName={s.active}><PostsIcon /></NavLink>
-      <NavLink to="#" activeClassName={s.active}><CommunityIcon /></NavLink>
-      <NavLink to="#" activeClassName={s.active}><MessageIcon /></NavLink>
-      <NavLink to="#" activeClassName={s.active}><MediaIcon /></NavLink>
-      <NavLink to="/dashboard" activeClassName={s.active}><DashboardIcon selected /></NavLink>
-      <NavLink to="#" activeClassName={s.active}><SettingsIcon /></NavLink>
+    <div className={s.fixed}>
+      <img src={process.env.PUBLIC_URL + '/img/logo.svg'} alt="logo" className={s.logo} />
+      <div>
+        <NavLink to="#" activeClassName={s.active}><HomeIcon /></NavLink>
+        <NavLink to="#" activeClassName={s.active}><PostsIcon /></NavLink>
+        <NavLink to="#" activeClassName={s.active}><CommunityIcon /></NavLink>
+        <NavLink to="#" activeClassName={s.active}><MessageIcon /></NavLink>
+        <NavLink to="#" activeClassName={s.active}><MediaIcon /></NavLink>
+        <NavLink to="/dashboard" activeClassName={s.active}><DashboardIcon selected /></NavLink>
+        <NavLink to="#" activeClassName={s.active}><SettingsIcon /></NavLink>
+      </div>
+      <ThemeButton />
     </div>
-    <ThemeButton />
   </aside>
 }
 

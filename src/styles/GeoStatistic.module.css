@@ -1,0 +1,90 @@
+.geoStatistic {
+  flex: 1;
+  padding: 24px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 13px;
+}
+
+.header {
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.countryCity {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #979797;
+}
+
+.countryCity p {
+  margin-right: 10px;
+}
+
+.countryCity p:nth-child(2) {
+  margin-right: 0;
+}
+
+.countryCity p.selected {
+  color: #4f4f4f;
+}
+
+.graphContainer {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.column {
+  margin-right: 52px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.column:nth-child(2) {
+  margin-right: 0;
+}
+
+.graphItem {
+  margin-bottom: 21px;
+}
+
+.graphTitle {
+  justify-content: space-between;
+}
+
+.location {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.percents {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #979797;
+}
+
+.scale {
+  position: relative;
+  margin-top: 8px;
+  flex: 1;
+  height: 10px;
+  background: #eff3f9;
+  border-radius: 9px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.fullness {
+  position: absolute;
+  /* width: 94%; */
+  height: 10px;
+  background: #7f7fd5;
+  border-radius: 6px;
+  z-index: 2;
+}

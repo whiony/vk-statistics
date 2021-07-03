@@ -1,0 +1,41 @@
+.genderGeoStatistics {
+  margin-top: 32px;
+}
+
+.genderStatistic {
+  flex: 1.8;
+  margin-right: 32px;
+  padding: 24px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  border-radius: 13px;
+}
+
+.header {
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.gender {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.gender:nth-child(2) {
+  margin-right: 0;
+}
+
+.square {
+  margin-right: 6px;
+  width: 16px;
+  height: 16px;
+  background: #e786d7;
+  border-radius: 5px;
+}
+
+.square.purple {
+  background: #7f7fd5;
+}
