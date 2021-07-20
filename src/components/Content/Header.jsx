@@ -7,19 +7,19 @@ const Header = () => {
       <Search />
       <img src={process.env.PUBLIC_URL + "/img/notification.svg"} alt="notification icon" className={s.notification} />
     </div>
-    <div className="centerRow">
+    <div className={`${s.userRow} centerRow`}>
       <p className={s.userName}>Yana</p>
       <img src={process.env.PUBLIC_URL + "/img/avatar.png"} alt="avatar" className={s.userAvatar} />
       <img src={process.env.PUBLIC_URL + "/img/dropDownArrow.svg"} alt="dropdown" className={s.dropDownArrow} />
     </div>
-  </header>
+  </header >
 }
 
 const Search = () => {
-  return <div className={s.search}>
+  return <label className={`${s.search} search`}>
     <img src={process.env.PUBLIC_URL + "/img/search.svg"} alt="search icon" className={s.searchIcon} />
-    <input type="text" placeholder="Search" />
-  </div>
+    <input type="text" placeholder="Search"></input>
+  </label>
 }
 
 export default Header;

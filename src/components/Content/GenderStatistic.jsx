@@ -1,7 +1,7 @@
 import s from "../../styles/GenderStatistic.module.css";
 
 const GenderStatistic = () => {
-  return <div className={`${s.genderStatistic}`}>
+  return <div className={`${s.genderStatistic} card`}>
     <div className={`${s.header} centerRow`}>
       <h2 className="cardTitle">Gender / Age</h2>
       <div className="centerRow">

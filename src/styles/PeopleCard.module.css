@@ -8,8 +8,6 @@
   padding: 24px;
   margin-right: 32px;
   flex: 1;
-  background: #fdfdff;
-  border: 1px solid #ebebeb;
   box-sizing: border-box;
   border-radius: 13px;
 }
@@ -34,6 +32,8 @@
 }
 
 .dots {
+  padding: 10px;
+  padding-right: 0;
   cursor: pointer;
 }
 

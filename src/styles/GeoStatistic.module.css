@@ -74,7 +74,7 @@
   margin-top: 8px;
   flex: 1;
   height: 10px;
-  background: #eff3f9;
+  /* background: #eff3f9; */
   border-radius: 9px;
   z-index: 1;
   overflow: hidden;

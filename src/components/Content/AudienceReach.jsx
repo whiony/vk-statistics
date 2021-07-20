@@ -1,7 +1,7 @@
 import s from "../../styles/AudienceReach.module.css"
 
 const AudienceReach = () => {
-  return <div className={s.audienceReach}>
+  return <div className={`${s.audienceReach} card`}>
     <div className={s.header}>
       <h2>Audience reach</h2>
       <div className="centerRow">

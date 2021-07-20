@@ -5,7 +5,7 @@ import ReachStatistics from "./ReachStatistics";
 import GenderGeoStatistics from "./GenderGeoStatistics";
 
 const Content = () => {
-  return <div className={s.content}>
+  return <div className={`${s.content} content`}>
     <Header />
     <PeopleCardContainer />
     <ReachStatistics />

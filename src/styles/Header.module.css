@@ -10,17 +10,19 @@
 }
 
 .search {
-  margin-right: 24px;
+  position: relative;
+  margin-right: 18px;
   display: flex;
   align-items: center;
-  padding: 6px 15px;
-  background: #fdfdff;
-  border: 1px solid #ebebeb;
   box-sizing: border-box;
   border-radius: 8px;
 }
 
 .search .searchIcon {
+  position: absolute;
+  top: 3px;
+  left: 12px;
+  padding: 6px;
   cursor: pointer;
   margin-right: 10px;
   width: 9px;
@@ -28,18 +30,33 @@
 }
 
 .search input {
+  width: 153px;
+
+  padding: 6px 0 6px 38px;
   border: none;
   background: none;
+  border-radius: 8px;
 }
 
 .search input::placeholder {
+  font-family: "Gilroy";
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
   color: #979797;
 }
 
+.search input:focus {
+  outline: 0 solid #666;
+  box-shadow: 0 0 0 1px #979797;
+}
+
 .notification {
+  padding: 6px;
+  cursor: pointer;
+}
+
+.userRow {
   cursor: pointer;
 }
 
@@ -52,10 +69,8 @@
 
 .userAvatar {
   margin-right: 9px;
-  cursor: pointer;
 }
 
 .dropDownArrow {
   padding: 5px;
-  cursor: pointer;
 }
