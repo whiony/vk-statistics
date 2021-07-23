@@ -35,6 +35,11 @@
   padding: 10px;
   padding-right: 0;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dots:active {
+  opacity: 0.5;
 }
 
 .people {
