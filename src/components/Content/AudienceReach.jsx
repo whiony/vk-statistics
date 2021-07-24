@@ -1,4 +1,5 @@
 import s from "../../styles/AudienceReach.module.css"
+import LineGraph from "../Graphs/LineGraph";
 
 const AudienceReach = () => {
   return <div className={`${s.audienceReach} card`}>
@@ -19,7 +20,8 @@ const AudienceReach = () => {
         </div>
       </div>
     </div>
-    <Graph />
+    <LineGraph />
+    {/* <Graph /> */}
   </div>
 }
 

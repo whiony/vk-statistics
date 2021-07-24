@@ -13,11 +13,12 @@
 }
 
 .header {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   justify-content: space-between;
 }
 
 .gender {
+  cursor: pointer;
   margin-right: 10px;
   font-weight: 600;
   font-size: 12px;

@@ -1,4 +1,6 @@
 .content {
+  display: grid;
+  grid-template-rows: 60px auto;
   padding: 45px;
   padding-top: 35px;
 }

@@ -1,4 +1,5 @@
 import s from "../../styles/GenderStatistic.module.css";
+import BarChart from "../Graphs/BarChart";
 
 const GenderStatistic = () => {
   return <div className={`${s.genderStatistic} card`}>
@@ -15,13 +16,7 @@ const GenderStatistic = () => {
         </div>
       </div>
     </div>
-    <Graph />
-  </div>
-}
-
-const Graph = () => {
-  return <div>
-    <img src={process.env.PUBLIC_URL + "/img/genderGraph.svg"} alt="gender graph" className={s.graph} />
+    <BarChart />
   </div>
 }
 
