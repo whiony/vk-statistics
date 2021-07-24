@@ -11,6 +11,7 @@ const state = {
       lineTension: 0.4,
       backgroundColor: '#E786D7',
       pointBorderWidth: 0,
+      pointHitRadius: 10,
       borderColor: '#7F7FD5',
       borderWidth: 1.9,
       data: [0.8, 1.6, 0.7, 3, 1, 1.5, 2.8, 1.2]
